@@ -1,0 +1,4 @@
+makechange : HW3.cpp
+	g++ -std=c++11 HW3.cpp -o change
+clean: 
+	rm *.o *.out output 
